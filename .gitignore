@@ -47,6 +47,7 @@ web_modules/
 
 # TypeScript cache
 *.tsbuildinfo
+# file build before npm install
 package-lock.json
 
 # Optional npm cache directory
