@@ -1,12 +1,12 @@
-import { useState } from 'react'
+
 import './App.css'
 import { Outlet } from 'react-router-dom'
-
+import NavBarComponent from './components/principalComponents/NavBarComponent/NavBarComponet'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <NavBarComponent></NavBarComponent>
       <Outlet></Outlet>
     </>
   )

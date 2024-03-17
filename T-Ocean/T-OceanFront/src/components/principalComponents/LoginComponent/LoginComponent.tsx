@@ -1,6 +1,8 @@
 const LoginComponent = () => {
     return (
-        <></>
+        <>
+            <h1>Hola desde LoginComponent</h1>
+        </>
     )
 }
 
