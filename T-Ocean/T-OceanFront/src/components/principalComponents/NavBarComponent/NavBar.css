@@ -1,5 +1,8 @@
 .NavBarT {
+    padding: 30px 50px 0 0;
     display: block;
+    background-color: var(--richBlack);
+    font-family: 'Righteous';
 }
 
 .NavBarT_flex{
@@ -19,6 +22,8 @@
 }
 
 .NavBarT_Link{
+    
+    color: var(--white);
     padding: 1rem;
     text-decoration: none;
 }
