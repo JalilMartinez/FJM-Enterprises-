@@ -1,14 +1,30 @@
-:root{
-  --blanco: #ffffff;
-  --oscuro: #212121;
-  --primario: rgba(255,193,7,1);
-  --secundario: #0097a7;
-  --gris: #757575;
+@font-face {
+  font-family: 'GoogleSan'; /* Nombre de la fuente */
+  src: url('../fonts/ProductSans-Regular.woff') format('woff'); /* Ruta relativa al archivo de fuente */
+}
+@font-face {
+  font-family: 'GoogleSanLight'; /* Nombre de la fuente */
+  src: url('../fonts/ProductSans-Light.woff') format('woff'); /* Ruta relativa al archivo de fuente */
+}
 
+/* Ahora puedes utilizar la fuente en otros selectores */
+body {
+  font-family: 'Product Sans Regular', sans-serif; /* Usa la fuente con el nombre especificado */
+}
+
+:root{
+  --white:#F1F1F1;
+  --mintGreen:#C6E3E1;
+  --cambridgeBlue:#8CBABA;
+  --verdigris:#54A4A5;
+  --darkCyan:#028692;
+  --midnightGreen:#005365;
+  --richBlack:#011717;
   --fuente-principal: 3.8rem;
 }
 
 html{
+ 
   font-size: 62.5%;
   box-sizing: border-box;/*para que no afecte el padding*/
   scroll-snap-type: y mandatory;
@@ -19,6 +35,7 @@ html{
 }
 /*global*/
 body{
+  margin: 0;
   font-size: 16px;/* 1 rem = 10px*/
-  font-family: 'Krub', sans-serif;
+  font-family: 'GoogleSanLight', sans-serif;
 }
