@@ -1,7 +1,7 @@
 import  { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const GetCamComponent = () => {
+const GetCamCVComponent = () => {
     const [imageData, setImageData] = useState('');
     const [images, setImages] = useState([]);
     const [recording, setRecording] = useState(false);
@@ -12,7 +12,7 @@ const GetCamComponent = () => {
     useEffect(() => {
         const intervalId = setInterval(async () => {
             try {
-                const response = await axios.get('http://localhost:8080/capture'); // Ajusta la URL según la configuración de tu servidor
+                const response = await axios.get('http://localhost:8080/getImage'); // Ajusta la URL según la configuración de tu servidor
                 setImageData(response.data);
                 if (recording) {
                     setImages(prevImages => [...prevImages, response.data]);
@@ -21,7 +21,7 @@ const GetCamComponent = () => {
             } catch (error) {
                 console.error('Error fetching image:', error);
             }
-        }, 20); // Intervalo de 1000 milisegundos (1 segundo)
+        }, 65); // Intervalo de 1000 milisegundos (1 segundo)
 
         // Limpia el intervalo cuando el componente se desmonta o actualiza
         return () => clearInterval(intervalId);
@@ -43,9 +43,10 @@ const GetCamComponent = () => {
           return { hours, minutes, seconds };
         });
       }, 1000); // Intervalo de 1000 milisegundos (1 segundo)
+
       const fetchVideoRecord = async () => {
           try {
-              await axios.get('http://localhost:8080/startRecording');
+              await axios.get('http://localhost:8080/startRecordingCV');
               
           } catch (error) {
               console.error('Error fetching images:', error);
@@ -69,7 +70,7 @@ const GetCamComponent = () => {
         // Aquí puedes continuar con la lógica para codificar y empaquetar las imágenes en un archivo MP4
         const fetchVideoRecordStop = async () => {
             try {
-                await axios.get('http://localhost:8080/stopRecording');
+                await axios.get('http://localhost:8080/stopRecordingCV');
                 
             } catch (error) {
                 console.error('Error fetching images:', error);
@@ -101,4 +102,4 @@ const GetCamComponent = () => {
     );
 };
 
-export default GetCamComponent;
+export default GetCamCVComponent;
