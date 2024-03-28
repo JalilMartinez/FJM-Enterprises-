@@ -4,6 +4,13 @@ const FirstPageComponent = ()=>{
         <>
             <h1 >Hola desde FirsPageComponent</h1>
             <h2>sdfsdf</h2>
+            <div className="newsContainer">
+                
+            </div>
+
+            <div className="videosContaines">
+
+            </div>
         </>
     )
 }

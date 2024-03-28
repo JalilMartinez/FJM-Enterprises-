@@ -2,7 +2,11 @@
 const NewsComponent = () => {
     return (
         <>
-          <h1>Hola desde NewsComponent</h1>
+          <head>
+            <header>
+              
+            </header>
+          </head>
         </>
     )
 }
