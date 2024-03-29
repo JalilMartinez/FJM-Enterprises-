@@ -2,7 +2,8 @@
 const FirstPageComponent = ()=>{
     return(
         <>
-            <h1 >Hola desde FirsPageComponent</h1>
+            <h1 > FirsPageComponent</h1>
+            
             <div className="newsContainer">
                 
             </div>
