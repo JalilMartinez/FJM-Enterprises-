@@ -1,8 +1,13 @@
 const LoginComponent = () => {
     return (
         <>
-            <h1>Hola desde LoginComponent</h1>
+
+            <h2>Hola desde LoginComponent</h2>
+            <div className="login-image">
+                Aqui va ir la imagen del login
+
             <div className="formContainer">
+
 
             </div>
         </>

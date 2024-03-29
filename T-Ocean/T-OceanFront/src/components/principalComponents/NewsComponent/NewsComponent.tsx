@@ -2,11 +2,20 @@
 const NewsComponent = () => {
     return (
         <>
-          <head>
+
+         <head>
             <header>
               
             </header>
           </head>
+        
+          <h2>Noticias</h2>
+          <div className="body_news">
+            Aqui van a ir todas las noticias
+          </div>
+
+
+
         </>
     )
 }
