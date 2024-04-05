@@ -9,11 +9,11 @@ const FirstPageComponent = ()=>{
                 Aqui va ir la seccion de noticias
             </div>
 
-            <div className="videosContaines">
+            <div className="videosContainer">
                 Aqui va la seccion de videos
             </div>
 
-            <div className="eventConteiner">    
+            <div className="eventContainer">    
                 Aqui va el contenedor de los eventos
             </div>
         </>
