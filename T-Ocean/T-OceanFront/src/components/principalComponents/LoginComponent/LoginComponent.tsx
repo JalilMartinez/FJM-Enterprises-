@@ -1,5 +1,5 @@
 const LoginComponent = () => {
-    return (
+    return(
         <>
 
             <h2>Hola desde LoginComponent</h2>
