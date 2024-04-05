@@ -11,7 +11,10 @@ const NewsComponent = () => {
         
           <h2>Noticias</h2>
           <div className="body_news">
-            Aqui van a ir todas las noticias
+            <div className="newContainer-1">Aqui va ir noticia 1</div>
+            <div className="newContainer-2">Aqui va la noticia 2</div>
+            <div className="newContainer-3"> Aqui va la noticia 3</div>
+            Agregar mas contenedores si se necesitan mas
           </div>
 
 
