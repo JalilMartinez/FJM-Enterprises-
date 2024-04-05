@@ -1,3 +1,5 @@
+import BlockNewComponent from "../../general/blockNewComponent/BlockNewComponent"
+
 
 const NewsComponent = () => {
     return (
@@ -17,6 +19,7 @@ const NewsComponent = () => {
             Agregar mas contenedores si se necesitan mas
           </div>
 
+          <BlockNewComponent></BlockNewComponent>
 
 
         </>
