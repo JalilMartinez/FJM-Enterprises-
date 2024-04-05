@@ -1,8 +1,8 @@
-const blockNewComponent = ()=>{
+const BlockNewComponent = ()=>{
     return(
         <>
             <h1>Hola desde blockNewComponent</h1>
         </>
     )
 }
-export default blockNewComponent
+export default BlockNewComponent
