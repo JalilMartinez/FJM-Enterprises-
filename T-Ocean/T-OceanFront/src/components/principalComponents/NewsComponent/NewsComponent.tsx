@@ -1,4 +1,4 @@
-import BlockNewComponent from "../../general/blockNewComponent/BlockNewComponent"
+import BlockNewComponent from "../../general/blockNewComponent/blockNewComponent"
 
 
 const NewsComponent = () => {
