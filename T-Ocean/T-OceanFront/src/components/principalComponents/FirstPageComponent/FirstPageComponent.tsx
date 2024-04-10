@@ -21,7 +21,7 @@ const FirstPageComponent = ()=>{
                 </div>
 
                 <div>
-                    <h2>El costo del Turismo</h2>
+                    <h2>El costo del Turismoo</h2>
                     <p>
                     Algunos de los principales centros turísticos luchan por gestionar la afluencia cada vez mayor de viajeros.
                     En ciudades como Ámsterdam, Venecia y Barcelona, los residentes urbanos están expresando su preocupación y 
