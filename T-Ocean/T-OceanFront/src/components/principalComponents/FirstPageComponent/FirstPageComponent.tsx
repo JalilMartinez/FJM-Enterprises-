@@ -3,7 +3,11 @@ const FirstPageComponent = ()=>{
     return(
         <>
 
-            <h1 >Hola FirsPageComponent</h1>
+            <header className="titlesContainer" >
+                <h1>El Impacto Humano Sobre los Oceanos</h1>
+                <h2> T-Ocean</h2>
+                <img src="https://s1.1zoom.me/b5250/864/Sea_Beach_Sand_579492_2560x1440.jpg"></img>
+            </header>
 
             <div className="informacionContainer">
                 <h2>¿Que podemos hacer para protegerlo?</h2>
@@ -60,12 +64,19 @@ const FirstPageComponent = ()=>{
                 </p>
             </div>
             
+            
+
+            
             <div className="newsContainer">
-                
+                Aqui va ir la seccion de noticias
             </div>
 
-            <div className="videosContaines">
+            <div className="videosContainer">
+                Aqui va la seccion de videos
+            </div>
 
+            <div className="eventContainer">    
+                Aqui va el contenedor de los eventos
             </div>
         </>
     )
