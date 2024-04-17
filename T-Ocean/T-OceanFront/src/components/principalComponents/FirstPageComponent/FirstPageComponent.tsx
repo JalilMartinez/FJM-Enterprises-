@@ -1,3 +1,4 @@
+import VideosComponent from "../../general/videosComponent/VideosComponent"
 
 const FirstPageComponent = ()=>{
     return(
@@ -13,7 +14,8 @@ const FirstPageComponent = ()=>{
             </div>
 
             <div className="videosContainer">
-                Aqui va la seccion de videos
+                <VideosComponent />
+               
             </div>
 
             <div className="eventContainer">    
