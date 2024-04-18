@@ -36,6 +36,9 @@ const AboutUsComponent = () =>{
                 <p>Mirando hacia el futuro, T-Ocean se compromete a seguir siendo pioneros en proporcionar información relevante del medio ambiente. 
                 Nos esforzamos por alcanzar un mundo mas limpio para todos, impulsando el progreso hacia un futuro más brillante y sostenible para las generaciones venideras.</p>
             </div>
+            <div>
+                <img src="https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/solo-un-13-de-los-oceanos-del-mundo-permanece-salvaje/6318102-1-esl-MX/Solo-un-13-de-los-oceanos-del-mundo-permanece-salvaje.jpg" alt="" />
+            </div>
         </>
     )
 }
