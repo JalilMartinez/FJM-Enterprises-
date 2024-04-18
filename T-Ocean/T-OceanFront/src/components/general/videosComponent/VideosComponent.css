@@ -1,0 +1,10 @@
+.swiper-container {
+    width: 100rem;
+    max-height: 200px; /* Ajusta la altura máxima del contenedor del Swiper según sea necesario */
+    overflow: hidden; /* Evita que las imágenes grandes hagan que el contenedor del Swiper se desborde */
+}
+
+.swiper-slide img {
+    max-height: 150px; /* Ajusta la altura máxima de las imágenes dentro de las diapositivas según sea necesario */
+    width: auto; /* Mantiene el ancho proporcional al ajustar la altura */
+}
