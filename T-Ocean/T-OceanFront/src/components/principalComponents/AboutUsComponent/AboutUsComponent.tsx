@@ -3,11 +3,13 @@
 const AboutUsComponent = () =>{
     return (
         <>
-            <head className="aboutUsHeadContainer">
+          
                 <header className="aboutUsHeaderContainer">
+                <h1>T-Ocean</h1>
+                <img src="https://s1.1zoom.me/b5250/864/Sea_Beach_Sand_579492_2560x1440.jpg"></img>
 
                 </header>
-            </head>
+            
             <div className="aboutUsContainer">
                 <h2>Una empresa comprometida a promover la conciencia del oceano y su fauna.</h2>
                 <h3>Enfocados siempre en la divulgacion de información relevante al medio ambiente y a disminuir el impacto humano en los oceanos</h3>
