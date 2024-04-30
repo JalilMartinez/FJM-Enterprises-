@@ -1,15 +1,23 @@
 import BlockNewComponent from "../../general/blockNewComponent/blockNewComponent"
-
+import "./NewsComponent.css"
 
 const NewsComponent = () => {
     return (
         <>
 
-         <head>
-            <header>
-              
+         
+            <header className="headerNewsContainer">
+              <div className="video-Newscontainer">
+                  <video autoPlay muted loop id="video-Newsbackground" className="video-background">
+                  <source src="videos/ocean.mp4" type="video/mp4" />
+                  </video>
+              </div>
+              <div className="titlesNews">
+                  <h1 className="News-title">Noticias</h1>
+                  <h2 className="News-subtitle">T-Ocean</h2>
+              </div>
             </header>
-          </head>
+          
         
           <h2>Noticias</h2>
           <div className="body_news">

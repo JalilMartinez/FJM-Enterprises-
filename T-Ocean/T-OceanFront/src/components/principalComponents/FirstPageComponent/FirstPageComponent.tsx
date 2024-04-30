@@ -1,13 +1,19 @@
 import VideosComponent from "../../general/videosComponent/VideosComponent"
-
+import './FirstPageComponent.css'
 const FirstPageComponent = ()=>{
     return(
         <>
 
-            <header className="titlesContainer" >
-                <h1>El Impacto Humano Sobre los Oceanos</h1>
-                <h2> T-Ocean</h2>
-                <img src="https://s1.1zoom.me/b5250/864/Sea_Beach_Sand_579492_2560x1440.jpg"></img>
+            <header className="headerFirstPageContainer">
+                <div className="video-container">
+                    <video autoPlay muted loop id="video-background" className="video-background">
+                    <source src="videos/ocean.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div className="titlesFirstPage">
+                    <h1 className="FirstPage-title">El Impacto Humano Sobre los Oceanos</h1>
+                    <h2 className="FirstPage-subtitle">T-Ocean</h2>
+                </div>
             </header>
 
             <div className="informacionContainer">
