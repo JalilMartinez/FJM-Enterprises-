@@ -40,7 +40,7 @@ const VideosComponent = () =>{
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                 >
-                    <SwiperSlide> <img src={`/images/TurismoMedioAmbiente.jpg`} alt="Imagen video" onClick={()=>videoChange(1)} style={{ cursor: 'pointer' }}/></SwiperSlide>
+                    <SwiperSlide><img src={`/images/TurismoMedioAmbiente.jpg`} alt="Imagen video" onClick={()=>videoChange(1)} style={{ cursor: 'pointer' }}/></SwiperSlide>
                     <SwiperSlide><img src={`/images/TailandiaOceano.jpg`} alt="Imagen video" onClick={()=>videoChange(2)} style={{ cursor: 'pointer' }}/></SwiperSlide>
                     <SwiperSlide><img src={`/images/coldplay.jpg`} alt="Imagen video" onClick={()=>videoChange(3)} style={{ cursor: 'pointer' }}/></SwiperSlide>
             
