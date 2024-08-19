@@ -48,7 +48,7 @@ const VideosComponent = () =>{
             </div>
             <div className='videoContainer'>
                 <iframe 
-                    width="50%" 
+                    width="100%" 
                     height="415" // Altura estándar para videos de YouTube
                     src={`https://www.youtube.com/embed/${videoRoute}`} 
                     title="YouTube video player" 
